@@ -155,6 +155,7 @@ The main configuration is in `src/config.py`. Key parameters include:
 │   └── notebooks/                     # Analysis notebooks
 ├── experiments/                       # Experiment configurations and outputs
 │   └── asthmoscope_mdpi_2025/
+│       ├── experiment_config.py       # Experiment-specific configuration
 │       └── out/                       # Model outputs and predictions
 │           ├── data_files/            # Prepared data files (patient_df.csv, samples_df.csv, audio_data.npy)
 │           ├── models/                # Trained model weights (.pt files)
