@@ -67,16 +67,23 @@ pip-delete-this-directory.txt
 *.mex*
 
 # Data Files (be careful with these - you may want to track some data)
-*.csv
-*.xlsx
-*.xls
-*.json
-*.pkl
-*.pickle
+*.npy
+*.npz
 *.h5
 *.hdf5
 *.mat
-*.npz
+*.pkl
+*.pickle
+
+# Experiment outputs
+experiments/*/out/
+data/
+
+# Weights & Biases
+wandb/
+
+# Editor tags
+tags
 
 # Large media files
 *.mov
